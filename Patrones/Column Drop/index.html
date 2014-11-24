@@ -5,11 +5,33 @@
         <title>Column Drop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="stylesheet" type="text/css" href="../../Assets/css/base.css">
+        <style type="text/css">
+        	.ColumnDrop{
+        		font-size: 0;
+        	}
+        	.ColumnDrop-row{
+        		width: 25%;
+        		display: inline-block;
+        		font-size: 16px;
+        		vertical-align: top;
+        	}
+        	@media screen and (max-width: 900px){
+        		.ColumnDrop-row{
+        			width: 50%;
+        		}
+        	}
+        	@media screen and (max-width: 767px){
+        		.ColumnDrop-row{
+        			width: 100%;
+        		}
+        	}
+
+        </style>
     </head>
     <body>
-    	<h1>Column Drop</h1>
     	<section class="ColumnDrop">
     		<div class="ColumnDrop-row verde_A">
+    			<h1>Column Drop</h1>
     			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
